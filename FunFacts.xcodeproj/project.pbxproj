@@ -14,6 +14,7 @@
 		D85E7C3E1B01858100BF1602 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85E7C3D1B01858100BF1602 /* Images.xcassets */; };
 		D85E7C411B01858100BF1602 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D85E7C3F1B01858100BF1602 /* LaunchScreen.xib */; };
 		D85E7C4D1B01858100BF1602 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D85E7C4C1B01858100BF1602 /* FunFactsTests.m */; };
+		D85E7C581B0194A100BF1602 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D85E7C571B0194A100BF1602 /* FactBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D85E7C461B01858100BF1602 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85E7C4B1B01858100BF1602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D85E7C4C1B01858100BF1602 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		D85E7C561B0194A100BF1602 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		D85E7C571B0194A100BF1602 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				D85E7C351B01858100BF1602 /* AppDelegate.m */,
 				D85E7C371B01858100BF1602 /* ViewController.h */,
 				D85E7C381B01858100BF1602 /* ViewController.m */,
+				D85E7C561B0194A100BF1602 /* FactBook.h */,
+				D85E7C571B0194A100BF1602 /* FactBook.m */,
 				D85E7C3A1B01858100BF1602 /* Main.storyboard */,
 				D85E7C3D1B01858100BF1602 /* Images.xcassets */,
 				D85E7C3F1B01858100BF1602 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				D85E7C391B01858100BF1602 /* ViewController.m in Sources */,
 				D85E7C361B01858100BF1602 /* AppDelegate.m in Sources */,
+				D85E7C581B0194A100BF1602 /* FactBook.m in Sources */,
 				D85E7C331B01858100BF1602 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
